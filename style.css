@@ -1,0 +1,182 @@
+*{
+  font-family: 'Noto Sans KR', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  border-collapse: collapse;
+  margin:0px;
+  padding:0px;
+  color: black;
+  
+}
+body{
+  background-color: #F1F2F3;
+}
+ 
+
+h1 {
+  font-size: 48px;
+  font-weight: 100;
+}
+h2{
+  font-size: 24px;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.text1{
+  font-size:18px ;
+  font-weight: bolder;
+  text-align: center;
+}
+.text2{
+  font-size:13px ;
+  text-align: center;
+  letter-spacing:-1px ;
+
+  
+}
+
+
+.intro{
+  background-image: url("intro.png");
+  width:100%;
+  height:718px;
+
+}
+.header{
+  width: 1280px;
+  margin: auto;
+  display: flex;
+  height: 86px;
+}
+.seachArea {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+
+}
+ .seachArea > form > input{
+   border: none;
+   width:250px;
+   height:40px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color:white;
+   padding-left:20px;
+   border-radius: 10px;
+   font-size: 20px;
+}
+.seachArea > form > span{
+  width: 50px;
+  color: white;
+  font-weight:lighter;
+  cursor: pointer;
+  
+}
+.nav{
+  display: flex;
+  width: calc(1280px - 300px);
+  line-height: 86px;
+  justify-content: flex-end;
+
+}
+.nav>li{
+  margin-left: 84px;
+
+}
+.nav>li>a{
+  color: #fff;
+}
+.intro_text{
+  width:100%;
+  margin: 231px auto 251px auto;
+  text-align: center;
+}
+
+.intro_text > h1,
+.intro_text > h4{
+  color: #fff;
+
+
+}
+.mid{
+ position: relative;
+ top:-66px;
+ display:flex ;
+ width: 1280px; 
+ background: red;
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+ margin: auto;
+ }
+.mid > li{
+  flex: 1 ;
+  height: 132px;
+  background: white;
+}
+.mid > li > div{
+ text-align: center;
+ background: white; 
+ height: 57px;
+ margin-top: 37px;
+
+}
+.mid > li:not(:last-child) > div{
+ border-right: 1px solid gray;
+}
+/* main text 0 */
+
+.main_text0{
+  width: 100%;
+  height:601px ;
+  background: #d3d8dd;
+  margin-top: -132px;
+ }
+ .main_text0 > h1{
+   text-align: center;
+   padding-top: 116px;
+ }
+ .main_text0 > h2 {
+   text-align: center;
+   font-weight: lighter;
+ }
+ .icon{
+  display: flex;
+  width: 1280px;
+  height: 302px;
+  margin: -380px auto auto auto;
+ }
+ .icon > li{
+ height: 302px;
+ background-color: white;
+ flex: 1;
+ margin-top: 49px;
+}
+.icon > li:not(:last-child){
+  margin-right: 20px;
+}
+.icon_img{
+ text-align: center;
+ padding-top:18px ;
+}
+.icon > li > .text2{
+ width: 200px;
+ margin: auto;
+ padding-top: 8px;
+}
+.icon > li > .more{
+  width: 100px;
+ height: 30px;
+ background: blue;
+ margin: 20px auto;
+ color: #d3d8dd;
+ text-align: center;
+ cursor: pointer;
+ 
+}
+ 
